@@ -14,7 +14,7 @@ on:
   schedule:
     # * is a special character in YAML so we quote this string
     # Run at 0830 UTC every day
-    - cron:  '30 08 * * *'
+    # - cron:  '30 08 * * *'
 
 permissions:
   id-token: write
